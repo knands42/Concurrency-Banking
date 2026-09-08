@@ -1,6 +1,6 @@
 module github.com/caiofernandes00/Bank-Transaction.git
 
-go 1.19
+go 1.25.0
 
 require (
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
@@ -15,7 +15,7 @@ require (
 	github.com/rs/zerolog v1.29.1
 	github.com/spf13/viper v1.13.0
 	github.com/stretchr/testify v1.8.3
-	golang.org/x/crypto v0.14.0
+	golang.org/x/crypto v0.52.0
 	google.golang.org/grpc v1.55.0
 	google.golang.org/protobuf v1.30.0
 )
@@ -60,9 +60,9 @@ require (
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
 	github.com/ugorji/go/codec v1.2.11 // indirect
 	golang.org/x/arch v0.3.0 // indirect
-	golang.org/x/net v0.17.0 // indirect
-	golang.org/x/sys v0.13.0 // indirect
-	golang.org/x/text v0.13.0 // indirect
+	golang.org/x/net v0.54.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
 	golang.org/x/time v0.0.0-20191024005414-555d28b269f0 // indirect
 	google.golang.org/genproto v0.0.0-20230306155012-7f2fa6fef1f4 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
